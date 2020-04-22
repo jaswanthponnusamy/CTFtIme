@@ -1,2 +1,0 @@
-INDEX VERSION 1.3+/Users/jaswa-zuch749/Desktop/CTFtIme/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-111552198.index
