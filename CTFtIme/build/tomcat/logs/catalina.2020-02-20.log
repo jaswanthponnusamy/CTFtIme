@@ -1,0 +1,39 @@
+20-Feb-2020 17:42:14.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+20-Feb-2020 17:42:14.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+20-Feb-2020 17:42:14.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+20-Feb-2020 17:42:14.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21
+20-Feb-2020 17:42:14.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/conf/logging.properties
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/temp
+20-Feb-2020 17:42:14.827 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaswa-zuch749/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Feb-2020 17:42:15.077 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Feb-2020 17:42:15.106 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Feb-2020 17:42:15.107 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [476] milliseconds
+20-Feb-2020 17:42:15.148 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Feb-2020 17:42:15.148 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+20-Feb-2020 17:42:15.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/docs]
+20-Feb-2020 17:42:15.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/docs] has finished in [194] ms
+20-Feb-2020 17:42:15.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/manager]
+20-Feb-2020 17:42:15.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/manager] has finished in [37] ms
+20-Feb-2020 17:42:15.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/examples]
+20-Feb-2020 17:42:15.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/examples] has finished in [569] ms
+20-Feb-2020 17:42:15.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/ROOT]
+20-Feb-2020 17:42:15.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/ROOT] has finished in [14] ms
+20-Feb-2020 17:42:15.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/host-manager]
+20-Feb-2020 17:42:15.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaswa-zuch749/Desktop/apache-tomcat-9.0.21/webapps/host-manager] has finished in [22] ms
+20-Feb-2020 17:42:15.996 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Feb-2020 17:42:16.001 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Feb-2020 17:42:16.003 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [895] milliseconds

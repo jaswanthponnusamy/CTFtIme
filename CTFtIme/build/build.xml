@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+<project name = "compilation" default = "info">
+<description>Compilation of the java files into class files and put it into build/tomcat/webapps/WEB-INF/classes folder.</description>
+<property name = "classes.dir" value = "tomcat/webapps/ROOT/WEB-INF/classes"/>
+<property name = "jar.dir" value = "tomcat/webapps/ROOT/WEB-INF/lib"/>
+<property name ="source.dir" value="source"/>
+<target name = "info">
+<delete dir="${classes.dir/CTFtIme}">
+</delete>
+<echo>-----------------------------------------------------------------------------</echo>
+<echo> Deleted the subdir's inside the build/tomcat/webapps/WEB-INF/classes folder</echo>
+<echo>Compiling the java files</echo>
+<path id="classpath">
+    <fileset dir="${jar.dir}" includes="**/*.jar"/>
+</path>
+<javac destdir = "${classes.dir}" source = "1.8" target = "1.8" includeAntRuntime="false">
+    <classpath refid="classpath"/>
+    <src path = "../${source.dir}"/>
+</javac>
+<echo>Class files added to the classes folder.</echo>
+<echo>Complilation of the java file completed successfully.</echo>
+<echo>-----------------------------------------------------------------------------</echo>   
+</target>
+</project>

@@ -1,0 +1,13 @@
+192.168.1.2 - - [15/Aug/2019:07:34:33 +0530] "GET /ZUsasSecurity/ HTTP/1.1" 200 3131
+192.168.1.2 - - [15/Aug/2019:07:34:33 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.2 - - [15/Aug/2019:07:34:55 +0530] "GET /ZUsasSecurity/ HTTP/1.1" 304 -
+192.168.1.2 - - [15/Aug/2019:07:34:55 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.2 - - [15/Aug/2019:07:35:19 +0530] "POST /ZUsasSecurity/Login?username=jaswanth&password=sertyu HTTP/1.1" 200 17
+192.168.1.2 - - [15/Aug/2019:07:35:25 +0530] "POST /ZUsasSecurity/SignupPage HTTP/1.1" 200 1064
+192.168.1.2 - - [15/Aug/2019:07:35:46 +0530] "POST /ZUsasSecurity/SignupPage HTTP/1.1" 200 1064
+192.168.1.2 - - [15/Aug/2019:07:35:46 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.2 - - [15/Aug/2019:18:26:30 +0530] "GET /ZUsasSecurity/ HTTP/1.1" 304 -
+192.168.1.2 - - [15/Aug/2019:18:27:19 +0530] "POST /ZUsasSecurity/SignupPage HTTP/1.1" 200 1064
+192.168.1.2 - - [15/Aug/2019:18:28:30 +0530] "GET /ZUsasSecurity/SignupPage.html HTTP/1.1" 200 2629
+192.168.1.2 - - [15/Aug/2019:18:29:06 +0530] "GET /ZUsasSecurity/HomePage.html HTTP/1.1" 200 8244
+192.168.1.2 - - [15/Aug/2019:18:29:06 +0530] "GET /ZUsasSecurity/searchicon.png HTTP/1.1" 404 1106

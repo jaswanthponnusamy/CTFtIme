@@ -1,0 +1,8 @@
+22-Feb-2020 12:22:27.841 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 12:22:27.863 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 12:22:27.899 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Feb-2020 12:22:27.905 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 12:22:27.987 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 12:22:27.993 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Feb-2020 12:22:27.997 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 12:22:27.999 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

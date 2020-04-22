@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+   <constant name = "struts.devMode" value = "false" />
+   <constant name="struts.enable.SlashesInActionNames" value="true"/>
+   <package name = "helloworld" extends = "struts-default">
+     
+      <action name = "adduser"
+         class = "CTFtIme.welcome.addusername"
+         method = "execute">
+         <result name = "success">WEB-INF/CTFtIme/jsp/homepage.jsp</result>
+         <result name = "405">WEB-INF/CTFtIme/errorpages/jsp/methodnotallowed.jsp</result>
+      </action>
+      
+      <action name="welcome">
+          <result>WEB-INF/CTFtIme/jsp/welcome.jsp</result>
+      </action>
+      
+      <action name="challenges">
+          <result>WEB-INF/CTFtIme/jsp/challenges.jsp</result>
+      </action>
+
+      
+      <action name="homepage">
+          <result>WEB-INF/CTFtIme/jsp/homepage.jsp</result>
+      </action>
+      
+      <action name="fuckoff">
+          <result>WEB-INF/CTFtIme/jsp/fuckoff.jsp</result>
+      </action>
+      
+      <action name="Successwifi">
+          <result>WEB-INF/CTFtIme/jsp/Successwifi.jsp</result>
+      </action>
+      
+      <action name="adminwifipage-jaswanth-me">
+          <result>WEB-INF/CTFtIme/html/download.html</result>
+      </action>
+
+      <action name="challenge1" class = "CTFtIme.challenge1.createchallenge1" method = "execute">
+          <result name="success">WEB-INF/CTFtIme/jsp/challenge1.jsp</result>
+      </action>
+
+    </package>
+    
+    <package name="default" extends="json-default,struts-default">
+      <action name="passcode" class = "CTFtIme.challenge1.passcode" method = "execute">
+   <result name="success" type="json">
+   <param name="root">
+        resultJSONobj
+    </param>
+   </result>
+      </action>
+      </package>
+
+      <package name="flag" extends="json-default,struts-default">
+      <action name="flag" class = "CTFtIme.challengecompletion.challenge1submit" method = "execute">
+   <result name="success" type="json">
+   <param name="root">
+        resultJSONobj
+    </param>
+   </result>
+      </action>
+      </package>
+   
+</struts>
+
+
+
